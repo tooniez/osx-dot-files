@@ -1,7 +1,8 @@
 # Using The Latest Configs
 
-I'm managing my most up to date configurations with GNU stow and will be removing my old configs soon. Once you clone the repository and have stow installed, you can cd
-the repository's directory (into your home directory), you can then into the directory (`cd ~/dev-environment-files/`)
+I'm managing my most up to date configurations with GNU stow
+and will be removing my old configs soon. First clone the
+repository (into your home directory) and install GNU stow. You can then `cd` into the directory (`cd ~/dev-environment-files/`)
 and then run `stow [name-of-config]`. For example,
 to use my latest neovim configuration you would do `stow nvim`.
 
